@@ -284,7 +284,7 @@ $(document).ready(function() {
 //PROJECT 18 IMAGES
     
   // get rid of intro text + sides, underline project title    
-  $("#18-0, #18-1, #18-2, #18-3, #18-4, #18-ABC, #proj18").hover(function() {
+  $("#18-0, #18-1, #18-2, #18-3, #18-4, #18-5, #18-ABC, #proj18").hover(function() {
      $("#middle1, #side1, #middle2, #side2").hide();
      $("#proj18").css("text-decoration", "underline");
       $("#proj18Label").show();      
@@ -337,6 +337,15 @@ $(document).ready(function() {
   function(){
         $("#img18-4").hide();
       $("#proj18-4Label").hide();
+  });
+    
+  $("#18-5").hover(function() {
+     $("#img18-5").show();
+      $("#proj18-5Label").show();
+    },
+  function(){
+        $("#img18-5").hide();
+      $("#proj18-5Label").hide();
   });
     
   $("#18-ABC").hover(function() {
