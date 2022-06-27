@@ -59,7 +59,6 @@ function getTimeLine () {
       } else if (min > 9 && hour > 11) {
         timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "pm, and ";
       }
-    console.log("hi");
     $("#heading span").text(timeLine);
     
 }
