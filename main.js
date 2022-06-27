@@ -51,13 +51,13 @@ function getTimeLine () {
       ];
       let hourString = ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
       if (min < 10 && hour < 12) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "am, and ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "am, and Stefanie Tam’s virtual space is coming soon.";
       } else if (min > 9 && hour < 12) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "am, and ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "am, and Stefanie Tam’s virtual space is coming soon.";
       } else if (min < 10 && hour > 11) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "pm, and ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "pm, and Stefanie Tam’s virtual space is coming soon.";
       } else if (min > 9 && hour > 11) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "pm, and ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "pm, and Stefanie Tam’s virtual space is coming soon.";
       }
     $("#heading span").text(timeLine);
     
