@@ -51,13 +51,13 @@ function getTimeLine () {
       ];
       let hourString = ['12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11', '12', '1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']
       if (min < 10 && hour < 12) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "am, ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "am, and ";
       } else if (min > 9 && hour < 12) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "am, ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "am, and ";
       } else if (min < 10 && hour > 11) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "pm, ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":0" + min + "pm, and ";
       } else if (min > 9 && hour > 11) {
-        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "pm, ";
+        timeLine = "It’s " + dayString[day] + ", " + monthString[month] + " " + date + ", " + year + ", " + hourString[hour] + ":" + min + "pm, and ";
       }
     console.log("hi");
     $("#heading span").text(timeLine);
